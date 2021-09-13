@@ -10,7 +10,7 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 h1 {
@@ -31,6 +31,10 @@ h4, h5 {
 
 p {
     font-size: 16px;
+}
+
+.small-text {
+    font-size: 14px;
 }
 
 /********** UTILITIES **********/
@@ -132,17 +136,19 @@ nav ul li a img{
     margin-right: 10px;
 }
 
-.btn-blue {
-    background-color: #1970ff;
-    color: white;
+.btn {
+    margin-top: 40px;
+    margin-bottom: 30px;
 }
 
-.btn-lightblue {
-    background-color: #307eff;
-    color: white;
-    padding: 10px 22px;
+.btn a {
     text-decoration: none;
-    font-size: 18px;
+}
+
+.btn-blue {
+    color: white;
+    background-color: #4058fe;
+    padding: 10px 35px;
 }
 
 .container-full-blue {
@@ -162,11 +168,6 @@ nav ul li a img{
     max-width: 95%;
 }
 
-.btn {
-    margin-top: 40px;
-    margin-bottom: 20px;
-}
-
 .arrow p {
   font-size: 50px;
   margin-top: 25px;
@@ -182,7 +183,6 @@ nav ul li a img{
 }
 
 .container-full-white .col_3_9 {
-    border: 1px solid #dcdcdf;
     padding: 0 20px;
 }
 
@@ -190,4 +190,70 @@ nav ul li a img{
     border-bottom: 1px solid #dcdcdf;
     text-align: center;
     padding: 10px 0;
+}
+
+.column-container {
+    width: 100%;
+    border: 1px solid #dcdcdf;
+}
+
+.text-grey {
+    color: #6e7b88;
+}
+
+.column-text {
+    padding: 18px;
+}
+
+.column-text .price {
+    line-height: 35px;
+    margin-bottom: 40px;
+}
+
+.column-text .offer {
+    margin-bottom: 65px;
+}
+
+.column-text .offer div{
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.column-text div.btn {
+    margin-bottom: 40px;
+}
+
+.column-text > p > a {
+    color: #4058fe;
+}
+
+.short-line {
+    width: 30%;
+    height: 20px;
+    background-color: white;
+    border-bottom: 1px solid #dcdcdf;
+    margin-bottom: 40px;
+}
+
+.offer-points > ul {
+    list-style-type: none;
+}
+
+.offer-points  ul li {
+    margin: 30px 0;
+}
+
+.offer-points  ul li::before {
+    content: "\2713 ";
+    color: #4058fe;
+    margin-right: 5px;
+    font-weight: 800;
+}
+
+.min-height-column {
+    min-height: 1050px;
 }
