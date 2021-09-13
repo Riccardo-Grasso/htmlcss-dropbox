@@ -65,6 +65,10 @@ p {
     margin: 180px auto;
 }
 
+.lat-padding-container {
+    padding: 0 20px;
+}
+
 [class*="col_"] {
     float: left;
 }
@@ -205,6 +209,14 @@ nav ul li a img{
     padding: 18px;
 }
 
+.column-text2 {
+    padding: 18px;
+}
+
+.column-text3 {
+    padding: 18px;
+}
+
 .column-text .price {
     line-height: 35px;
     margin-bottom: 40px;
@@ -257,3 +269,17 @@ nav ul li a img{
 .min-height-column {
     min-height: 1050px;
 }
+
+.margin-bottom {
+    margin-bottom: 60px;
+}
+
+.col_6_9 .title {
+    line-height: 39px;
+    margin: 10px 0;
+}
+
+.small-text2 {
+    font-size: 12px;
+}
+
