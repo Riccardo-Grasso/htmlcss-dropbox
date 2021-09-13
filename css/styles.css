@@ -140,16 +140,16 @@ nav ul li a img{
     font-size: 18px;
 }
 
-.container-full {
+.container-full-blue {
     margin-top: 75px;
     background-color: #b4d0e7;
 }
 
-.container-full .container-large h1 {
+.container-full-blue .container-large h1 {
     margin-bottom: 50px;
 }
 
-.container-full .container-large .col_3_9 {
+.container-full-blue .container-large .col_3_9 {
     padding-right: 60px;
 }
 
