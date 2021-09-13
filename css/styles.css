@@ -28,6 +28,10 @@ h4, h5 {
     font-size: 16px;
 }
 
+p {
+    font-size: 16px;
+}
+
 /********** UTILITIES **********/
 
 .row:after {
@@ -42,6 +46,8 @@ h4, h5 {
     max-width: 1367px;
     width: 100%;
     margin: auto;
+    position: relative;
+    top: 80px;
 }
 
 .container {
@@ -91,6 +97,8 @@ nav {
     top: 0;
     left: 0;
     width: 100%;
+    max-height: 75px;
+    z-index: 99;
 }
 
 nav ul {
@@ -120,6 +128,41 @@ nav ul li a img{
 }
 
 .btn-blue {
-    background-color: #1765E6;
+    background-color: #1970ff;
     color: white;
+}
+
+.btn-lightblue {
+    background-color: #307eff;
+    color: white;
+    padding: 10px 22px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.container-full {
+    margin-top: 75px;
+    background-color: #b4d0e7;
+}
+
+.container-full .container-large h1 {
+    margin-bottom: 50px;
+}
+
+.container-full .container-large .col_3_9 {
+    padding-right: 60px;
+}
+
+.container-large .col_6_9 img {
+    max-width: 95%;
+}
+
+.btn {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.arrow p {
+  font-size: 50px;
+  margin-top: 25px;
 }
