@@ -1,0 +1,125 @@
+/********** FORMATTAZIONE INIZIALE**********/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/********** FONT **********/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-size: 77px;
+}
+  
+h2 {
+    font-size: 40px;
+}
+  
+h3 {
+    font-size: 25px;
+}
+  
+h4, h5 {
+    font-size: 16px;
+}
+
+/********** UTILITIES **********/
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/********** LAYOUT **********/
+
+.container-large {
+    max-width: 1367px;
+    width: 100%;
+    margin: auto;
+}
+
+.container {
+    max-width: 1010px;
+    width: 100%;
+    margin: auto;
+}
+
+[class*="col_"] {
+    float: left;
+}
+
+.col_1_9 {
+    width: calc(100% / 9);
+}
+
+.col_2_9 {
+    width: calc(100% / 9 * 2);
+}
+
+.col_3_9 {
+    width: calc(100% / 9 * 3);
+}
+
+.col_4_9 {
+    width: calc(100% / 9 * 4);
+}
+
+.col_5_9 {
+    width: calc(100% / 9 * 5);
+}
+
+.col_6_9 {
+    width: calc(100% / 9 * 6);
+}
+
+.col_1-2 {
+    width: 50%;
+}
+
+/********** STYLES **********/
+
+nav {
+    background-color: white;
+    padding: 8px 8px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    margin: 10px 0;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a{
+    line-height: 40px;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: black;
+}
+
+nav ul li a img{ 
+    height: 30px;
+    vertical-align: middle;
+}
+
+.text-right {
+    text-align: right;
+    margin-right: 10px;
+}
+
+.btn-blue {
+    background-color: #1765E6;
+    color: white;
+}
