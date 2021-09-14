@@ -66,6 +66,7 @@ p {
     max-width: 1010px;
     width: 100%;
     margin: 180px auto;
+    margin-bottom: 60px;
 }
 
 .lat-padding-container {
@@ -225,7 +226,7 @@ nav ul li a img{
 }
 
 .column-text .offer {
-    margin-bottom: 65px;
+    margin-bottom: 55px;
 }
 
 .column-text .offer div{
@@ -245,6 +246,18 @@ nav ul li a img{
     color: #4058fe;
 }
 
+.fa-ul {
+    margin-left: 25px;
+}
+
+.fa-ul li {
+    padding-bottom: 15px;
+}
+
+.fa-ul li p{
+    font-size: 14px;
+}
+
 .short-line {
     width: 30%;
     height: 20px;
@@ -260,16 +273,18 @@ nav ul li a img{
 
 .offer-points  ul li {
     margin: 30px 0;
-    margin-left: 18px;
+    margin-left: 25px;
 }
 
 .offer-points  ul li::before {
-    content: "\2713 ";
+    font-family: "Font Awesome 5 Free";
+    content: "\f00c";
     color: #4058fe;
     margin-right: 5px;
     font-weight: 800;
     position: absolute;
     left: 0;
+    margin-top: 3px;
 }
 
 .min-height-column {
@@ -315,4 +330,60 @@ section .col_4_9 h3 {
 
 .bottom-text {
     width: 60%;
+}
+
+
+.container-full-blue2 {
+    width: 100%;
+    margin-top: 35px;
+    background-color: #b4d0e7;
+}
+
+.container-full-blue2:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+.square-aside {
+    width: 30%;
+    float: left;
+}
+
+.square-aside:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.square-row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.square-logo {
+    float: left;
+    width: 50%;
+    height: calc( 30vw / 2);
+    position: relative;
+}
+
+.square-logo img {
+    max-width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(100%);
+}
+
+.square-central {
+    width: 40%;
+    float:left;
+    padding: 50px;
+    height: 30vw;
+    background-color: #F5F5F5;
 }
