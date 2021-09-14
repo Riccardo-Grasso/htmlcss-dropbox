@@ -92,6 +92,10 @@ p {
     float: left;
 }
 
+.col_1_5 {
+    width: calc(100% / 5);
+}
+
 .col_1_9 {
     width: calc(100% / 9);
 }
@@ -423,4 +427,31 @@ section .col_4_9 h3 {
 
 .faq span {
     margin-left: 300px;
+}
+
+.container-full-black {
+    padding: 80px 120px;
+    background-color: black;
+}
+
+.container-large .col_1_5 {
+    color: white;
+}
+
+.container-large .col_1_5 h4 {
+    padding-bottom: 20px;
+}
+
+.container-large .col_1_5 ul {
+    list-style-type: none;
+}
+
+.container-large .col_1_5 li {
+    margin: 15px 0;
+    font-size: 14px;
+}
+
+.container-large .col_1_5  a{
+    color: white;
+    text-decoration: white;
 }
