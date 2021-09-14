@@ -65,8 +65,23 @@ p {
 .container {
     max-width: 1010px;
     width: 100%;
-    margin: 180px auto;
-    margin-bottom: 60px;
+    margin: 180px auto 30px;
+}
+
+.container-full-blue {
+    margin-top: 75px;
+    background-color: #b4d0e7;
+}
+
+.container-full-white {
+    background-color: white;
+}
+
+.container2 {
+    max-width: 1010px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 100px 0;
 }
 
 .lat-padding-container {
@@ -149,7 +164,16 @@ nav ul li a img{
     margin-bottom: 30px;
 }
 
+.btn2 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
 .btn a {
+    text-decoration: none;
+}
+
+.btn2 a {
     text-decoration: none;
 }
 
@@ -166,10 +190,7 @@ nav ul li a img{
     border: 1px solid black;
 }
 
-.container-full-blue {
-    margin-top: 75px;
-    background-color: #b4d0e7;
-}
+
 
 .container-full-blue .container-large h1 {
     margin-bottom: 50px;
@@ -183,8 +204,8 @@ nav ul li a img{
     max-width: 95%;
 }
 
-.arrow p {
-  font-size: 50px;
+.arrow i {
+  font-size: 30px;
   margin-top: 25px;
 }
 
@@ -339,26 +360,12 @@ section .col_4_9 h3 {
     background-color: #b4d0e7;
 }
 
-.container-full-blue2:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-
-
 .square-aside {
     width: 30%;
     float: left;
 }
 
 .square-aside:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.square-row::after{
     content: "";
     display: table;
     clear: both;
@@ -386,4 +393,34 @@ section .col_4_9 h3 {
     padding: 50px;
     height: 30vw;
     background-color: #F5F5F5;
+}
+
+.square-central img {
+    width: 30%;
+}
+
+.short-line2 {
+    width: 15%;
+    height: 20px;
+    border-bottom: 1px solid #dcdcdf;
+    margin-bottom: 45px;
+}
+
+.col_6_9 > h2 {
+    width: 75%;
+    color: #61082B;
+}
+
+.faq h3 {
+    padding-bottom: 40px;
+    border-bottom: 1px solid #DCDCDE;
+}
+
+.faq h4 {
+    padding: 20px 0;
+    border-bottom: 1px solid #DCDCDE;
+}
+
+.faq span {
+    margin-left: 300px;
 }
