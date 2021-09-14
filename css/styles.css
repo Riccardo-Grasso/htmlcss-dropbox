@@ -55,6 +55,9 @@ p {
     max-width: 1367px;
     width: 100%;
     margin: auto;
+}
+
+.container-top-pos {
     position: relative;
     top: 80px;
 }
@@ -252,10 +255,12 @@ nav ul li a img{
 
 .offer-points > ul {
     list-style-type: none;
+    position: relative;
 }
 
 .offer-points  ul li {
     margin: 30px 0;
+    margin-left: 18px;
 }
 
 .offer-points  ul li::before {
@@ -263,6 +268,8 @@ nav ul li a img{
     color: #4058fe;
     margin-right: 5px;
     font-weight: 800;
+    position: absolute;
+    left: 0;
 }
 
 .min-height-column {
