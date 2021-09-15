@@ -420,14 +420,36 @@ section .col_4_9 h3 {
     border-bottom: 1px solid #DCDCDE;
 }
 
+.faq ul li{
+    list-style-type: none;
+    border-bottom: 1px solid #DCDCDE;
+}
+
 .faq h4 {
     padding: 20px 0;
-    border-bottom: 1px solid #DCDCDE;
 }
 
 .faq span {
     margin-left: 300px;
 }
+
+.faq .faq-item-container {
+    height: 0px;
+    overflow: hidden;
+    transition: height 0.2s;
+    padding-bottom: 20px           ;
+}
+
+.faq-item:focus .faq-item-container {
+    height: 300px;
+    overflow: auto;
+}
+
+
+
+
+
+
 
 .container-full-black {
     padding: 80px 120px;
