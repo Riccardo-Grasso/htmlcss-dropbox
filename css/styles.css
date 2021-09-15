@@ -558,14 +558,14 @@ section .col_4_9 h3 {
     position: relative;
 }
 
-.eng {
+.language-choice {
     height: 0;
     overflow: hidden;
     transition: height 0.2s;
 }
 
-.language-selection:focus .eng {
-    height: 30px;
+.language-selection:focus .language-choice {
+    height: 100px;
     overflow: auto;
 }
 
