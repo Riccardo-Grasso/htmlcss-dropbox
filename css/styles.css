@@ -426,23 +426,27 @@ section .col_4_9 h3 {
 }
 
 .faq h4 {
-    padding: 20px 0;
+    padding: 20px 60px 20px 0;
+    position: relative;
 }
 
 .faq span {
-    margin-left: 300px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
 }
 
 .faq .faq-item-container {
     height: 0px;
     overflow: hidden;
-    transition: height 0.2s;
-    padding-bottom: 20px           ;
+    transition: all 0.3s;
 }
 
 .faq-item:focus .faq-item-container {
     height: 300px;
     overflow: auto;
+    padding: 10px 0 20px 10px;
+    background-color: rgb(232, 244, 252);
 }
 
 
