@@ -532,10 +532,47 @@ section .col_4_9 h3 {
 .language {
     margin-top: 50px;
     color: gray;
-    position: relative;
 }
 
 .language-arrow-icon {
     position: absolute;
-    top: 5px;
+    top: 6px;
+    right: 5px;
+}
+
+/* .language-world {
+    display: inline-block;
+    position: relative;
+    margin-right: 20px;
+} */
+
+.language-world-icon {
+/*     position: absolute;
+    top: 6px; */
+    padding-right: 20px;
+}
+
+.language-selection {
+    display: inline-block;
+    width: 13%;
+    position: relative;
+}
+
+.eng {
+    height: 0;
+    overflow: hidden;
+    transition: height 0.2s;
+}
+
+.language-selection:focus .eng {
+    height: 30px;
+    overflow: auto;
+}
+
+.col_world_logo {
+    width: 40px;
+}
+
+.col_lang {
+    width: 50%;
 }
