@@ -236,11 +236,12 @@ nav li.navigation:hover a {
   margin-top: 25px;
   position: relative;
   animation: arrow-down 1.5s linear infinite;
+  animation-direction: alternate;
 }
 
 @keyframes arrow-down {
     0% {left: 0; top: 0;}
-    100% {left: 0; top: 100px;}
+    100% {left: 0; top: 80px;}
 }
 
 .fatturazione {
